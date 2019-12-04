@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="itcasthaokemanagedubboserveradinterface" />
+        <module name="itcasthaokemanagedubboservergenerator" />
+        <module name="itcasthaokemanagedubboserverhouseresourcesdubbointerface" />
+        <module name="itcasthaokemanagedubboserverhouseresourcesdubboservice" />
+        <module name="itcasthaokemanagedubboservercommon" />
+        <module name="itcasthaokemanagedubboserveradservice" />
+        <module name="itcasthaokemanageapiserver" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="itcasthaokemanagedubboservercommon工" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="itcasthaokemanageapiserver" options="-parameters" />
+      <module name="itcasthaokemanagedubboserver" options="-parameters" />
+      <module name="itcasthaokemanagedubboserverad" options="-parameters" />
+      <module name="itcasthaokemanagedubboserveradinterface" options="-parameters" />
+      <module name="itcasthaokemanagedubboserveradservice" options="-parameters" />
+      <module name="itcasthaokemanagedubboservercommon" options="-parameters" />
+      <module name="itcasthaokemanagedubboservercommon工" options="-parameters" />
+      <module name="itcasthaokemanagedubboservergenerator" options="-parameters" />
+      <module name="itcasthaokemanagedubboserverhouseresources" options="-parameters" />
+      <module name="itcasthaokemanagedubboserverhouseresourcesdubbointerface" options="-parameters" />
+      <module name="itcasthaokemanagedubboserverhouseresourcesdubboservice" options="-parameters" />
+    </option>
+  </component>
+</project>
